@@ -10,8 +10,12 @@ body{
 
 button{
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
-background-color: rgb(234, 14, 139);
+background-color: #ff6b09;
+background-image: linear-gradient(180deg, #fc8333 0%, #fa27c2 67%);
 outline: none;
+
+font-size:larger;
+
 }
 .button{
     text-align: right;
@@ -41,12 +45,8 @@ a{
     align-items: center;
     margin-right: 0px;
 }
-@media only screen and (max-width: 750px){
-#navbar .gets {
-        font-size: 20px;
-        border-radius: 20px;
-}
-}
+
+
 .gets1{
     background-color: #ff6b09;
 background-image: linear-gradient(180deg, #fc8333 0%, #fa27c2 67%);
@@ -59,6 +59,7 @@ background-image: linear-gradient(180deg, #fc8333 0%, #fa27c2 67%);
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    margin:0px 0px 0px 142px;
 
 }
 
@@ -145,18 +146,7 @@ color: white;
     font-size: 20px;
 }   
 
-.footer{
-    width: 100vw;
-    height :60px;
-    margin: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    /* padding-left: 100px; */
-    background-color: rgb(2, 2, 29);
-    align-items: center;
-    color:white;
-}    
+
 
 .icon{
     color:#ff25c4;
@@ -167,8 +157,8 @@ color: white;
 }
 .img{
     position: absolute;
-    height: 620px;
-    right: -332px;
+    height: 640px;
+    right: -326px;
     top: -179px;
     width:520px;
     
@@ -181,6 +171,155 @@ background-image: linear-gradient(180deg, #fc8333 0%, #fa27c2 67%);
 border-radius:60px;
 }
 
+.list:hover{
+    background-color: #ff6b09;
+    background-image: linear-gradient(180deg, #fc8333 0%, #fa27c2 67%);
+    color:whitesmoke;
+    outline: none;
+    
+   
+}
+
+.file:hover{
+    background-color: #ff6b09;
+    background-image: linear-gradient(180deg, #fc8333 0%, #fa27c2 67%);
+    color:whitesmoke;
+    outline: none;
+    
+   
+}
+
+.card2:hover{
+    background-color: #ff6b09;
+    background-image: linear-gradient(180deg, #fc8333 0%, #fa27c2 67%);
+}
+
+.button:hover{
+    outline:none;
+}
+
+
+.card2{
+    width: 300px; 
+    height: 250px;
+    border: 1px solid #ddd; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    margin-left: 7px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin:0px 0px 0px 0px;
+
+}
+
+.footer {
+    height: 280px;
+    bottom: 0px;
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer a {
+    color: white;
+    margin: 0px;
+    text-decoration: none;
+    color:white;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
 
 
 
+
+
+
+
+/* Additional styles for responsiveness */
+@media only screen and (  max-width: 900px) {
+    .img {
+      position: relative;
+      height: 356px;
+      width:fit-content;
+      right: 0;
+      top: 0;
+      width: 100%;
+      margin:0px 0px 70px 158px;
+    }
+  
+    .container {
+      margin-left: 20px;
+      
+    }
+
+    .footer{
+        width: 624px;
+    }
+
+    .card{
+        width: 700px;
+        margin: 0px -95px 0px 21px;
+        padding-right: 0px;
+        padding-left: 10px;
+        font-size: larger;
+    }
+
+    .card2{
+        width: 700px;
+        margin: 0px -95px 0px 21px;
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+.card1{
+    font-size: 50px;
+}
+
+.gets{
+    font-size: 32px;
+     border-radius:0px;
+     margin:28px 123px 0px 0px;
+     border-width: 43px;
+}
+
+.description{
+    margin: -551px 0px 459px 0px;
+}
+
+
+
+.gets1{
+    margin:-425px 0px 123px 131px;
+}
+
+.main{
+    margin:-120px 0px 170px 0px;
+}
+
+
+
+}
+    
+  
+  
